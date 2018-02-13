@@ -682,7 +682,7 @@ button{
 }
 
 .htwo{
-  font-size: 1.2em
+  font-size: 1.8em
 }
 
 }
@@ -831,7 +831,7 @@ header{
 /* Nav for small screens */
 
 
-@media (min-width:400px) and (max-width:768px) {
+@media (max-width:768px) {
   .navlogo{
         display: block;
         margin: 0 auto;
@@ -841,10 +841,17 @@ header{
       display:none;
       transition: 0.5s
     }
+    input ~ nav > ul {
+      text-align: center;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+      right: 20%;
+    }
 
   }
 
-  @media (max-width:400px) {
+  /* @media only screen and (max-width:414px) {
     .navlogo{
       width: 82px;
       padding-top: 6pt;
@@ -901,22 +908,4 @@ header{
 
     }
   }
-
-
-  /* input ~ nav {
-    height: 100px;
-
-}
-input + label span {
-
-  height: 3px;
-  top: 65%;
-  margin-top: -1px;
-
-}
-input + label span:first-child { top: 25px; }
-
-input + label span:last-child { top: 37px; }
-
-
-} */
+ */
