@@ -845,8 +845,11 @@ header{
       text-align: center;
       position: absolute;
       top: 15%;
-      left: 13%;
-      right: 20%;
+      /* left: 10%;
+      right: 20%; */
+      display: block;
+      margin: 0 auto;
+      padding-left: 0;
     }
 
   }
