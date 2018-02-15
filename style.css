@@ -42,6 +42,12 @@ I would also love to give credit to Curtis Campbell for doing my previous portfo
 
 
 }
+@media (max-width:768px) {
+  .home4{
+    background-image: none;
+background-color: #EEE863
+  }
+}
 
 .projecthero{
   /* background-color: #E2366B; */
@@ -582,6 +588,10 @@ button:hover {
     cursor: pointer
 
 }
+button:focus {
+  outline:0;
+}
+
 
 
 img{
@@ -850,6 +860,15 @@ header{
       display: block;
       margin: 0 auto;
       padding-left: 0;
+    }
+    input ~ nav > ul > li {
+display:none;
+      transition: .5s;
+      transition-delay: 0s;
+    }
+    input:checked ~ nav > ul > li {
+      display: block;
+      transition-delay: .5s;
     }
 
   }
