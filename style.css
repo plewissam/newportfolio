@@ -846,9 +846,10 @@ header{
 
 @media (max-width:768px) {
   .navlogo{
-        display: block;
-        margin: 0 auto;
         padding-left: 0;
+    }
+    nav{
+      text-align: center
     }
   input:checked ~ nav > .hidelogo{
       display:none;
