@@ -11,7 +11,8 @@ I would also love to give credit to Curtis Campbell for doing my previous portfo
 
 
 .homesections{
-  height: 400pt;
+  min-height: 400pt;
+  max-height: auto;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -372,6 +373,8 @@ padding-bottom: 5%
   background-position: center;
   background-size: cover;
   width: 100%;
+  padding-top: 5%;
+  padding-bottom:5%
 }
 .aboutimg{
   width: 150pt;
@@ -383,12 +386,20 @@ padding-bottom: 5%
 
 }
 .ab2{
-  background-color: #8936E2;
+  background-color: #FAFAFA;
 
 }
 .aboutcontact{
   min-height: 200pt;
   max-height: auto;
+
+}
+
+.abouttext{
+text-align: left;
+margin-left: 20%;
+margin-right: 20%;
+margin-top:5%
 
 }
 
