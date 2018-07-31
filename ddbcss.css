@@ -1,7 +1,5 @@
 .home1{
-background-color: #FAFAFA;
-background-image: url(assets/ddb/background.png);
-height: 100%
+background:none
 }
 
 
@@ -15,6 +13,11 @@ height: 100%
 
 }
 
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
 
 .home3{
 
