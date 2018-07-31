@@ -1,0 +1,25 @@
+.home1{
+background-color: #FAFAFA;
+background-image: url(assets/ddb/background.png);
+height: 100%
+}
+
+
+
+.homeherotext{
+  color: #000000
+}
+
+.homeherotextsubtitle{
+  color: #000000
+
+}
+
+
+.home3{
+
+}
+
+header{
+  display: none
+}
